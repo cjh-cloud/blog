@@ -12,7 +12,7 @@ Prerequisites:
 - Arduino with the "firmata" script installed
 - An RGB LED with 330 Ohm resistors
 
-All the code can be found at https://github.com/SenorGrande/hue-app  
+[All the code can be found at my GitHub repo](https://github.com/SenorGrande/hue-app)  
 Included is a React App to demonstrate sending POST requests to the Node-RED HTTP endpoint.
 
 ![Arduino](./arduino-led.png)
@@ -46,7 +46,7 @@ RUN usermod -a -G dialout node-red
 USER node-red
 ```
 
-Putting it all together...
+### Putting it all together...
 ```
 FROM nodered/node-red-docker:rpi
 
