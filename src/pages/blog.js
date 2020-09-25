@@ -30,7 +30,7 @@ const BlogPage = () => {
         <Layout>
             <Head title="Blog" />
             <h1>Blog</h1>
-            <p>Posts will show up here later on.</p>
+            <p>My blog posts, also on Medium.</p>
             <ol className={blogStyles.posts}>
                 {/* map converts object to jsx */}
                 {data.allMarkdownRemark.edges.map((edge) => {
@@ -44,7 +44,6 @@ const BlogPage = () => {
                     )
                 })}
             </ol>
-            
         </Layout>
     )
 }

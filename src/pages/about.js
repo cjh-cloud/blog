@@ -9,7 +9,8 @@ const AboutPage = () => {
         <Layout>
             <Head title="About" />
             <h1>About Me</h1>
-            <p>I'm an IIoT Engineer.</p>
+            <p>I'm an Computer Systems, IIoT, and DevSecOps Engineer.</p>
+
             <p><Link to="/contact">Want to see what else I've done, or get in touch?</Link></p>
 
             <h1>About the blog</h1>

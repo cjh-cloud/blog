@@ -10,7 +10,7 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: 'Senor Grande\'s Blog...',
-    author: 'Connor Hewett'
+    author: 'Senor Grande'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

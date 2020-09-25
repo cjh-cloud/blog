@@ -10,8 +10,13 @@ const IndexPage = () => {
         <Layout>
             <Head title="Home" />
             {/* Children props? */}
-            <h1>Hello.</h1>
-            <h2>I am Senor Grande.</h2>
+            <h1>Kia Ora </h1>
+            <h2>I'm Connor - aka Senor Grande 👋</h2>
+
+            <p>🕹️ I’m working on building keyboard peripherals with Eletron, Johnny-Five and Arduino</p>
+            <p>🔭 I’m currently learning Terraform and making games with Godot</p>
+            <p>🥅 2020 Goals: Complete Hacktoberfest</p>
+            <p>🌯 Fun fact: I love breakfast burritos</p>
             <p>Need a developer? <Link to="/contact">Contact me.</Link></p> {/* to is a prop */}
         </Layout>
     )
