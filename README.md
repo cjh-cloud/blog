@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.org">
+  <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
 </p>
@@ -44,6 +44,9 @@ I found gatsby-plugin-sharp would not install on my Raspberry Pi, worked fine on
 **Helmet**
 npm i gatsby-plugin-react-helmet@3.0.12 react-helmet@5.2.0
 Swap out the favicon file in the static directory
+Favicon - https://favicon.io/emoji-favicons/call-me-hand
+
+---
 
 
 **Gatsby Boilerplate**

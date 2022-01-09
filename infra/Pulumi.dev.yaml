@@ -1,0 +1,4 @@
+config:
+  azure-native:location: AustraliaEast
+  blog-infra:gh_token:
+    secure: AAABAMaKzZZPOfiOyEZvrehidINomQ5SxO1QF1KgJNqK5M1jRAdcBsVD+xSS7Uvr8ZsYHoMIRRo81DWbQuKBRZX+IisvDIeV
