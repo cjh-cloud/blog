@@ -9,8 +9,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Senor Grande\'s Blog...',
-    author: 'Senor Grande'
+    title: 'CJ\'s Blog...',
+    author: 'CJ Hewett'
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -11,7 +11,7 @@ const IndexPage = () => {
             <Head title="Home" />
             {/* Children props? */}
             <h1>Kia Ora </h1>
-            <h2>I'm Connor - aka Senor Grande 👋</h2>
+            <h2>I'm CJ 👋</h2>
 
             <p>🕹️ I’m working on building keyboard peripherals with Eletron, Johnny-Five and Arduino</p>
             <p>🔭 I’m currently learning Terraform and making games with Godot</p>

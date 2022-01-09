@@ -5,7 +5,7 @@ date: "2020-09-27"
 
 ![Johnny Five](./johnny-five.png)
 
-Here's a quikc post on how to read from a CO2 sensor with Johnny-Five using an Arduino. You can get an MQ-135 sensor off Ebay for a couple dollarydoos.
+Here's a quick post on how to read from a CO2 sensor with Johnny-Five using an Arduino. You can get an MQ-135 sensor off Ebay for a couple dollarydoos.
 [Source code for this can be found here](https://github.com/SenorGrande/co2-sensor)
 
 ## Circuit Setup

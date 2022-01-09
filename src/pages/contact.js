@@ -14,7 +14,7 @@ const ContactPage = () => {
             <p>
                 <a href="https://github.com/SenorGrande" target="_blank">GitHub</a>
                 <br />
-                <a href="https://medium.com/@hewett.j.connor" target="_blank">Medium</a>
+                <a href="https://medium.com/@cj-hewett" target="_blank">Medium</a>
                 <br />
                 <a href="http://tetris-frontend.s3-website-ap-southeast-2.amazonaws.com/" target="_blank">Tetris clone I built with React, S3, Lambda & DynamoDB</a>
             </p>
