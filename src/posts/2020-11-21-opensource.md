@@ -3,7 +3,7 @@ title: "Learning how to contribute to Open Source from Hacktoberfest 2020"
 date: "2020-11-21"
 ---
 
-![Johnny Five](./7-hacktoberfest.png)
+![Johnny Five](./2020-11-21-hacktoberfest.png)
 
 I’d been wanting to contribute to Open Source for a while now but didn’t know where to start. It felt daunting to get up to speed with a strangers project, and then have your work critiqued by a stranger. However, this year I challenged myself to complete Hacktoberfest and thought I’d share; what I’d learnt from the Pull Requests I submitted, how I found GitHub Issues to work on, and my overall experience with Hacktoberfest and contributing to Open Source.
 So you’ve done the ‘first contributions’ tutorial where you add your name to a repo after creating a PR from your forked repo, or you’ve contributed documentation to a repository. Now what?
@@ -40,12 +40,12 @@ This is a reality of Open Source, maintainers have lives too and might not be ab
 
 I added a new, optional input to the `action.yml` file called `push_path` and then added this as an argument to the action.
 
-![GitHub Action](./7-action.png)
+![GitHub Action](./2020-11-21-action.png)
 
 I then altered the bash script that this action executes, `entrypoint.sh`
 I set the variable `PUSH_PATH` to the third argument (`inputs.push_path`). if it was not empty, I remove a trailing forward if need be and set the `DIR` variable to this and `OUTPUT_PATH` to a concatenation of `DIR` and `FILE_NAME`.
 
-![Docker entrypoint.sh](./7-entrypoint.png)
+![Docker entrypoint.sh](./2020-11-21-entrypoint.png)
 
 # 4th PR — [action-conflict-finder](https://github.com/olivernybroe/action-conflict-finder) — Change to alpine image
 [Issue](https://github.com/olivernybroe/action-conflict-finder/issues/1) and [Pull Request](https://github.com/olivernybroe/action-conflict-finder/pull/4)
@@ -59,7 +59,7 @@ I changed the image from `ubuntu:latest` to `alpine:3.12.0` , selecting a static
 This is a Python package that includes a bunch of ‘dividers’ that you can easily print in your logging messages.
 The issue I worked on was to add a new divider of your choosing. I added a divider made up of the joystick emoji🕹️.
 
-![area4/dividers.txt](./7-dividers.png)
+![area4/dividers.txt](./2020-11-21-dividers.png)
 
 I don’t recommend working on issues like these, as it feels like you are not really contributing anything and I wouldn’t blame the Hacktoberfest moderators if they didn’t approve this. You also aren’t learning anything and to me it feels like it goes against the spirit of Hacktoberfest.
 However, I needed a back up PR in case my 3rd PR was not accepted in time, and I was interested to see if this would count to my 4 PRs.
