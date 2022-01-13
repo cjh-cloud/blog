@@ -8,7 +8,7 @@ import Head from '../components/head'
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
         query {
-            allMarkdownRemark {
+            allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
                 edges {
                     node {
                         frontmatter {
@@ -24,7 +24,7 @@ const BlogPage = () => {
         }
     `)
 
-    console.log(data);
+    // console.log(data);
 
     return (
         <Layout>
