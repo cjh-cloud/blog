@@ -9,7 +9,7 @@
 </h1>
 
 ## Setup
-<a href="https://www.youtube.com/watch?v=kzWIUX3C">Tutorial Link</a>
+<a href="https://www.youtube.com/watch?v=8t0vNu2fCCM">Tutorial Link</a>
 
 
 <a href="https://localhost:8000/___graphql">GraphQL Playground</a>  
