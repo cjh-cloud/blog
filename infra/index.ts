@@ -20,4 +20,10 @@ const staticSite = new azure_native.web.StaticSite("staticSite", {
     },
 });
 
+const staticSiteCustomDomain = new azure_native.web.StaticSiteCustomDomain("staticSiteCustomDomain", {
+    domainName: "cjscloud.city",
+    name: staticSite.name,
+    resourceGroupName: resourceGroup.name,
+});
+
 export const url = staticSite.contentDistributionEndpoint;
