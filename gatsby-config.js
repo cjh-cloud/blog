@@ -9,7 +9,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'CJ\'s Blog...',
+    title: 'CJ\'s Cloud City...',
     author: 'CJ Hewett'
   },
   plugins: [
